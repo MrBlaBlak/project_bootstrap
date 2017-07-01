@@ -1,4 +1,37 @@
-.menu{
+#main-nav {
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.navbar-default{
     font-family: 'Montserrat', sans-serif;
+    
+    
+}
+#main-nav  a{
+   color: white; 
+}
+
+#main-header {
+/*    przyciemnianie*/
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+#main-header .header-caption {
+    position: absolute;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+#main-header .header-caption h2 {
+    font-size: 2em;
+    font-weight: 200;
 }
