@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 #main-nav {
     background-color: rgba(0, 0, 0, 0);
     
@@ -58,7 +61,7 @@ section#services{
     margin: 0;
     background-color: #f7f7f7;
 }
-h2#usługi, h2#prace{
+h2#usługi, h2#prace, h2#ekipa{
     color:#333;
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
@@ -72,6 +75,7 @@ h3{
     text-align: center;
     font-family: 'Droid Serif', serif;
     color: #333;
+    margin-top: 10px;
     
 }
 #services .fa{
@@ -92,18 +96,134 @@ h3{
     
 }
 #portfolio{
-    margin:0;
-    padding-top: 80px;
+    
     background-color: antiquewhite;
 }
-figure#obraz1{  
-    height: 250px;  
-    background-image: url(../img/portfolio/box_of_cookies.jpg);
+#portfolio .single-portfolio-item{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+#portfolio .portfolio-image-container{
+    height:300px;
+    overflow: hidden;
+}
+#portfolio .single-portfolio-item .portfolio-image{
+    background-position: center;
     background-size: cover;
-   margin-top: 10px;
+    height:100%;
+    position: relative;
+    transition: .3s;
+}
+#portfolio .single-portfolio-item .portfolio-image:hover{
+    transform: scale(1.2);
+}
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #0ed8d6;
+    opacity: 0;
+    transition: all .3s;
+    cursor: pointer;
+}
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask:hover{
+    opacity: 0.9;
+}
+#portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask .fa{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 3em;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+#portfolio .single-portfolio-item h1{
+    padding-top: 10px;
+}
+#portfolio .single-portfolio-item p{
+    padding-top: 25px;
+}
+#portfolio-item-1{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+#portfolio-item-2{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+#portfolio-item-3{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+#portfolio-item-4{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+#portfolio-item-5{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+#portfolio-item-6{
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+section#team{
+    padding-top: 100px;
+     text-align: center;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+
+
+
+figure#obraz1{  
+    background-image: url(../img/team/man-1.jpg);
+     background-size: cover;
+   height: 200px;
+    width: 200px;
+    
+    
+    border: 1px solid #f7f7f7;
+    border-radius: 50%;
+    transition: all 0.25s linear;  
+    margin-top:100px;
+    
     
     
 }
+
+figure#obraz2{  
+    background-image: url(../img/team/man-2.jpg);
+     background-size: cover;
+   height: 200px;
+    width: 200px; 
+     
+    border: 1px solid #f7f7f7;
+    border-radius: 50%;
+    transition: all 0.25s linear;  
+    margin-top: 100px;
+    
+}
+
+figure#obraz3{  
+    background-image: url(../img/team/woman-1.jpg);
+     background-size: cover;
+   height: 200px;
+    width: 200px; 
+     
+    border: 1px solid #f7f7f7;
+    border-radius: 50%;
+    transition: all 0.25s linear;
+    margin-top:100px;
+   
+}
+h2.imiona{
+    color:#333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;   
+}
+
+/*
 figure#obraz2{
     background-image: url(../img/portfolio/chaotic_paint.jpg);
     background-size: cover;
@@ -117,35 +237,13 @@ figure#obraz3{
     height: 250px;
      margin-top: 10px;
 }
-figure#obraz4{
-    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
-    background-size: cover;
-    height: 250px;
-     margin-top: 10px; 
+
+figure:hover{
+  background-size: auto;  
 }
-figure#obraz5{
-    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
-    background-size: cover;
-    height: 250px;
-      margin-top: 10px;
-}
-figure#obraz6{
-    background-image: url(../img/portfolio/typing_on_laptop.jpg);
-    background-size: cover;
-    height: 250px;
-     margin-top: 10px; 
-}
-figcaption{
-     height: 250px;
-    padding-top: 10%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 10%;
-    background-color: rgba(41, 61, 79, 0.8);
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-}
+
 figcaption:hover {
     opacity: 1;
     color: aliceblue;
 }
+*/
