@@ -7,6 +7,10 @@
     
     
 }
+.navbar-brand{
+    font-family: 'Droid Serif', serif;
+    font-size: 2em;
+}
 #main-nav  a{
    color: white; 
 }
@@ -15,15 +19,22 @@
 /*    przyciemnianie*/
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/header/pictures_on_the_wall.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     position: relative;
+}
+h1{
+    font-family: 'Droid Serif', serif;
+    font-size: 2em;
+}
+div.header-caption h2#lorem{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
 }
 
 
 #main-header .header-caption {
     position: absolute;
     color: white;
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     left: 0%;
     right: 0%;
@@ -35,3 +46,29 @@
     font-size: 2em;
     font-weight: 200;
 }
+button.btn-info{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    height:70px;
+    width:200px;
+    
+}
+section#services{
+    
+    margin: 0;
+    background-color: #f7f7f7;
+}
+h2#usługi{
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;    
+}
+h3{
+    font-size:1em;
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+    margin: 15px;
+}
+
