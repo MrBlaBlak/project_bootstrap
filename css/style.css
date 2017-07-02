@@ -54,21 +54,47 @@ button.btn-info{
     
 }
 section#services{
-    
+    text-align: center;
     margin: 0;
     background-color: #f7f7f7;
 }
-h2#usługi{
-    color:black;
+h2#usługi, h2#prace{
+    color:#333;
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
     text-align: center;
-    margin: 0;    
+       
 }
 h3{
+    padding: 10px;
+    padding-bottom: 20px;
     font-size:1em;
     text-align: center;
     font-family: 'Droid Serif', serif;
-    margin: 15px;
+    color: #333;
+    
 }
-
+#services .fa{
+    font-size: 3em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    color:#fff;
+    background-color:  #0ed8d6;
+    transition: all .3s;
+}
+#services .fa:hover{
+    color:  #0ed8d6;
+    background-color: #fff;
+    transform: rotate(360deg);
+    
+}
+#portfolio{
+    text-align: center;
+    padding-top: 80px;
+}
+img{
+    
+}
