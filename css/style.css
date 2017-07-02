@@ -92,9 +92,60 @@ h3{
     
 }
 #portfolio{
-    text-align: center;
+    margin:0;
     padding-top: 80px;
+    background-color: antiquewhite;
 }
-img{
+figure#obraz1{  
+    height: 250px;  
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+    background-size: cover;
+   margin-top: 10px;
     
+    
+}
+figure#obraz2{
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-top: 10px;
+    
+}
+figure#obraz3{
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+    background-size: cover;
+    height: 250px;
+     margin-top: 10px;
+}
+figure#obraz4{
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+    background-size: cover;
+    height: 250px;
+     margin-top: 10px; 
+}
+figure#obraz5{
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+    background-size: cover;
+    height: 250px;
+      margin-top: 10px;
+}
+figure#obraz6{
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+    background-size: cover;
+    height: 250px;
+     margin-top: 10px; 
+}
+figcaption{
+     height: 250px;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    background-color: rgba(41, 61, 79, 0.8);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+figcaption:hover {
+    opacity: 1;
+    color: aliceblue;
 }
